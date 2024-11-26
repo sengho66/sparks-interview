@@ -1,8 +1,6 @@
 "use client";
-import Image from "next/image";
 import styles from "./page.module.css";
 import { useWs } from "./hooks/useWs";
-import { useEffect } from "react";
 import { Box } from "@chakra-ui/react";
 import Connection from "./components/Connection";
 import Symbol from "./components/Symbol";

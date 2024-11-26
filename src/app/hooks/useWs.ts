@@ -1,4 +1,5 @@
 "use client";
+// eslint-disable-next-line react-hooks/exhaustive-deps
 import { useEffect, useRef, useState } from "react";
 type Pairs = "BTC/USDT" | "ETH/USDT" | "USD";
 
